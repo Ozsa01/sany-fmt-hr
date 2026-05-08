@@ -1,8 +1,13 @@
 export default function Home() {
   return (
-    <div style={{padding:40}}>
+    <div style={{
+      minHeight:"100vh",
+      background:"linear-gradient(135deg,#b30000,#0f8a3c)",
+      color:"white",
+      padding:40
+    }}>
       <h1>SANY & FMT</h1>
-      <p>İnsan Kaynakları Sistemi</p>
+      <p>HR Sistemi</p>
       <a href="/login">Giriş Yap</a>
     </div>
   )
